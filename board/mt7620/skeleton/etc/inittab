@@ -1,0 +1,12 @@
+# /etc/inittab
+
+::sysinit:/etc/rcS
+
+::askfirst:/bin/ash
+
+#::respawn:/sbin/getty -L -n -l /usr/local/admcmd/fwsh ttyS0 115200 vt100
+
+::restart:/sbin/init
+
+::ctrlaltdel:/sbin/reboot
+::shutdown:/bin/umount -a -r
