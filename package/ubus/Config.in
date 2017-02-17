@@ -1,0 +1,6 @@
+config BR2_PACKAGE_UBUS
+	bool "ubus"
+#	depends on BR2_PACKAGE_LIBUBOX
+	help
+	  openwrt library ubus
+

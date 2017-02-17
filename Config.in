@@ -1,0 +1,3 @@
+source "$BR2_EXTERNAL/package/rt2880_app/Config.in"
+source "$BR2_EXTERNAL/package/ubus/Config.in"
+

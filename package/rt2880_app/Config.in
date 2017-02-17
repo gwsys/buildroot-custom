@@ -1,0 +1,4 @@
+config BR2_PACKAGE_RT2880_APP
+	bool "rt2880_app"
+	help
+	rt2880 application

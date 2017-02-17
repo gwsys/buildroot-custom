@@ -47,7 +47,9 @@ ip link set eth100.2 name eth1
 ifconfig  eth100 up
 echo 1 > /proc/sys/net/ipv4/ip_forward
 
-telnetd 
+[ ! -d /var/run ] && mkdir /var/run
+[ ! -d /var/log ] && mkdir /var/log
+
 ubusd &
 syslogd
 systemd -d

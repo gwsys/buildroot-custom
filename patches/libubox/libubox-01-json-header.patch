@@ -1,0 +1,12 @@
+diff -Nurp libubox/blobmsg_json.h libubox.new/blobmsg_json.h
+--- libubox/blobmsg_json.h	2014-07-15 06:31:05.000000000 -0700
++++ libubox.new/blobmsg_json.h	2015-01-26 21:19:53.167899697 -0800
+@@ -19,7 +19,7 @@
+ #ifdef JSONC
+ 	#include <json.h>
+ #else
+-	#include <json/json.h>
++	#include <json-c/json.h>
+ #endif
+ 
+ #include <stdbool.h>
